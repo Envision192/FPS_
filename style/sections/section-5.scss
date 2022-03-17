@@ -1,0 +1,124 @@
+.section-5 {
+  display: flex;
+  width: 100%;
+  padding: 120px 0 125px;
+  background: url(../../img/image-7.png) right top no-repeat, #f2f2f2;
+  .container {
+    flex-direction: column;
+    .title {
+      margin-bottom: 39px;
+    }
+    .price-subtitle {
+      font-weight: bold;
+      font-size: 100px;
+      line-height: 117px;
+      color: #1939de;
+      margin-bottom: 22px;
+      .ruble {
+        font-weight: normal;
+      }
+    }
+    .subtitle-text {
+      max-width: 386px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      color: #3d4b66;
+      margin-bottom: 20px;
+    }
+    .midprice {
+      max-width: 386px;
+      font-size: 18px;
+      line-height: 24px;
+      color: #3d4b66;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .section-5 {
+    display: flex;
+    width: 100%;
+    padding: 60px 0 80px;
+    background: url(../../img/image-7.png) right top no-repeat, #f2f2f2;
+    background-size: cover;
+
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      .title {
+        margin-bottom: 48px;
+        font-size: 24px;
+        line-height: 28px;
+      }
+      .price-subtitle {
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+        color: #1939de;
+        margin-bottom: 17px;
+        .ruble {
+          font-weight: normal;
+        }
+      }
+      .subtitle-text {
+        max-width: 386px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #3d4b66;
+        margin-bottom: 20px;
+      }
+      .midprice {
+        max-width: 386px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #3d4b66;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section-5 {
+    display: flex;
+    width: 100%;
+    padding: 40px 0 137px;
+    background: url(../../img/image-7min.png) center top no-repeat, #f2f2f2;
+
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      .title {
+        margin-bottom: 36px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .price-subtitle {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #1939de;
+        margin-bottom: 20px;
+        .ruble {
+          font-weight: normal;
+        }
+      }
+      .subtitle-text {
+        max-width: 386px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3d4b66;
+        margin-bottom: 20px;
+      }
+      .midprice {
+        max-width: 386px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3d4b66;
+      }
+    }
+  }
+}

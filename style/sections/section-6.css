@@ -1,0 +1,833 @@
+@charset "UTF-8";
+.section-6 {
+  display: flex;
+  width: 100%;
+  padding: 104px 0 84px;
+}
+.section-6 .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-6 .container .title {
+  text-align: center;
+}
+.section-6 .container .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 864px;
+  border: 1px solid #dddfe0;
+  border-radius: 6px;
+}
+.section-6 .container .form .form-col {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  padding: 42px 0;
+}
+.section-6 .container .form .form-col .top-block,
+.section-6 .container .form .form-col .mid-block,
+.section-6 .container .form .form-col .btm-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 135px;
+  border-bottom: 1px solid #dddfe0;
+}
+.section-6 .container .form .form-col .top-block .form-title,
+.section-6 .container .form .form-col .mid-block .form-title,
+.section-6 .container .form .form-col .btm-block .form-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.section-6 .container .form .form-col .input-inner {
+  position: relative;
+  width: 100%;
+  background: #eef2f7;
+  border-radius: 4px;
+  padding: 24px 18px 16px;
+  margin-bottom: 32px;
+}
+.section-6 .container .form .form-col .input-inner .input {
+  width: 100%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9299a2;
+  background: #eef2f7;
+}
+.section-6 .container .form .form-col .two-blocks-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.section-6 .container .form .form-col .two-blocks-row .input-inner {
+  max-width: 49%;
+}
+.section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn {
+  cursor: pointer;
+}
+.section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn .select {
+  position: absolute;
+  background: url(../../img/Vector6.png) 0 0/cover no-repeat;
+  width: 12px;
+  height: 7px;
+  top: 50%;
+  right: 18px;
+  transition: transform 0.5s 0s;
+}
+.section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn :active {
+  transform: rotate(-180deg);
+}
+.section-6 .container .form .form-col .top-block .two-blocks-row .select-btn {
+  display: none;
+}
+.section-6 .container .form .form-col .mid-block {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section-6 .container .form .form-col .mid-block .files {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 592px;
+  padding: 24px;
+  border: 1px dashed #9299a2;
+  border-radius: 4px;
+}
+.section-6 .container .form .form-col .mid-block .files .clip {
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9299a2;
+  margin-bottom: 16px;
+}
+.section-6 .container .form .form-col .mid-block .files .clip::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  top: 3px;
+  background: url(../../img/clip.png);
+}
+.section-6 .container .form .form-col .mid-block .files .upload-btn {
+  position: relative;
+  overflow: hidden;
+  width: 134px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #1939de;
+  border-radius: 3px;
+}
+.section-6 .container .form .form-col .mid-block .files .upload-btn label {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-6 .container .form .form-col .mid-block .files .upload-btn label .file-upload {
+  display: none;
+}
+.section-6 .container .form .form-col .mid-block .files .upload-btn label span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #1939de;
+}
+.section-6 .container .form .form-col .btm-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 135px 0;
+  border-bottom: none;
+}
+.section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.section-6 .container .form .form-col .btm-block .checkbox label::after {
+  content: "Я принимаю условия передачи информации";
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3d4b66;
+  padding-left: 16px;
+}
+.section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label {
+  display: flex;
+  align-items: center;
+  max-width: 342px;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+.section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label::before {
+  content: "";
+  border: 1px solid #dddfe0;
+  border-radius: 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-size 0.5s 0s;
+}
+.section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox:checked + label::before {
+  background: url(../../img/checkbox.png);
+}
+.section-6 .container .form .form-col .btm-block .subm-btn {
+  display: flex;
+  width: 100%;
+  max-width: 142px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #1939de;
+  border-radius: 3px;
+}
+
+@media (max-width: 1200px) {
+  .section-6 {
+    display: flex;
+    width: 100%;
+    padding: 104px 0 84px;
+  }
+  .section-6 .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-6 .container .title {
+    text-align: center;
+  }
+  .section-6 .container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+    border: 1px solid #dddfe0;
+    border-radius: 6px;
+  }
+  .section-6 .container .form .form-col {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    padding: 42px 0;
+  }
+  .section-6 .container .form .form-col .top-block,
+.section-6 .container .form .form-col .mid-block,
+.section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 135px;
+    border-bottom: 1px solid #dddfe0;
+  }
+  .section-6 .container .form .form-col .top-block .form-title,
+.section-6 .container .form .form-col .mid-block .form-title,
+.section-6 .container .form .form-col .btm-block .form-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .section-6 .container .form .form-col .input-inner {
+    position: relative;
+    width: 100%;
+    background: #eef2f7;
+    border-radius: 4px;
+    padding: 24px 18px 16px;
+    margin-bottom: 32px;
+  }
+  .section-6 .container .form .form-col .input-inner .input {
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299a2;
+    background: #eef2f7;
+  }
+  .section-6 .container .form .form-col .two-blocks-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner {
+    max-width: 49%;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn {
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn .select {
+    position: absolute;
+    background: url(../../img/Vector6.png) 0 0/cover no-repeat;
+    width: 12px;
+    height: 7px;
+    top: 50%;
+    right: 18px;
+    transition: transform 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn :active {
+    transform: rotate(-180deg);
+  }
+  .section-6 .container .form .form-col .top-block .two-blocks-row .select-btn {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-6 .container .form .form-col .mid-block .files {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 592px;
+    padding: 24px;
+    border: 1px dashed #9299a2;
+    border-radius: 4px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299a2;
+    margin-bottom: 16px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 3px;
+    background: url(../../img/clip.png);
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn {
+    position: relative;
+    overflow: hidden;
+    width: 134px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #1939de;
+    border-radius: 3px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label .file-upload {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1939de;
+  }
+  .section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 135px 0;
+    border-bottom: none;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox label::after {
+    content: "Я принимаю условия передачи информации";
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3d4b66;
+    padding-left: 16px;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label {
+    display: flex;
+    align-items: center;
+    max-width: 342px;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label::before {
+    content: "";
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: background-size 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox:checked + label::before {
+    background: url(../../img/checkbox.png);
+  }
+  .section-6 .container .form .form-col .btm-block .subm-btn {
+    display: flex;
+    width: 100%;
+    max-width: 142px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #1939de;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 992px) {
+  .section-6 {
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+  }
+  .section-6 .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-6 .container .title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 36px;
+  }
+  .section-6 .container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 696px;
+    border: 1px solid #dddfe0;
+    border-radius: 6px;
+  }
+  .section-6 .container .form .form-col {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    padding: 42px 0;
+  }
+  .section-6 .container .form .form-col .top-block,
+.section-6 .container .form .form-col .mid-block,
+.section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 135px;
+    border-bottom: 1px solid #dddfe0;
+  }
+  .section-6 .container .form .form-col .top-block .form-title,
+.section-6 .container .form .form-col .mid-block .form-title,
+.section-6 .container .form .form-col .btm-block .form-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .section-6 .container .form .form-col .input-inner {
+    position: relative;
+    width: 100%;
+    background: #eef2f7;
+    border-radius: 4px;
+    padding: 24px 18px 16px;
+    margin-bottom: 32px;
+  }
+  .section-6 .container .form .form-col .input-inner .input {
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299a2;
+    background: #eef2f7;
+  }
+  .section-6 .container .form .form-col .two-blocks-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner {
+    max-width: 49%;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn {
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn .select {
+    position: absolute;
+    background: url(../../img/Vector6.png) 0 0/cover no-repeat;
+    width: 12px;
+    height: 7px;
+    top: 50%;
+    right: 18px;
+    transition: transform 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn :active {
+    transform: rotate(-180deg);
+  }
+  .section-6 .container .form .form-col .top-block {
+    padding: 0 64px;
+  }
+  .section-6 .container .form .form-col .top-block .two-blocks-row .select-btn {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block {
+    padding: 40px 64px;
+  }
+  .section-6 .container .form .form-col .mid-block .files {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 592px;
+    padding: 24px;
+    border: 1px dashed #9299a2;
+    border-radius: 4px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299a2;
+    margin-bottom: 16px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 3px;
+    background: url(../../img/clip.png);
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn {
+    position: relative;
+    overflow: hidden;
+    width: 134px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #1939de;
+    border-radius: 3px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label .file-upload {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1939de;
+  }
+  .section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 64px 0;
+    border-bottom: none;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox label::after {
+    content: "Я принимаю условия передачи информации";
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3d4b66;
+    padding-left: 16px;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label {
+    display: flex;
+    align-items: center;
+    max-width: 342px;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label::before {
+    content: "";
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: background-size 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox:checked + label::before {
+    background: url(../../img/checkbox.png);
+  }
+  .section-6 .container .form .form-col .btm-block .subm-btn {
+    display: flex;
+    width: 100%;
+    max-width: 142px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #1939de;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 768px) {
+  .section-6 {
+    display: flex;
+    width: 100%;
+    padding: 40px 0 60px;
+  }
+  .section-6 .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-6 .container .title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .section-6 .container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    max-width: none;
+    border: none;
+    border-radius: 6px;
+  }
+  .section-6 .container .form .form-col {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .section-6 .container .form .form-col .top-block,
+.section-6 .container .form .form-col .mid-block,
+.section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #dddfe0;
+  }
+  .section-6 .container .form .form-col .top-block .form-title,
+.section-6 .container .form .form-col .mid-block .form-title,
+.section-6 .container .form .form-col .btm-block .form-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .section-6 .container .form .form-col .input-inner {
+    position: relative;
+    width: 100%;
+    background: #eef2f7;
+    border-radius: 4px;
+    padding: 24px 18px 16px;
+    margin-bottom: 12px;
+  }
+  .section-6 .container .form .form-col .input-inner .input {
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9299a2;
+    background: #eef2f7;
+  }
+  .section-6 .container .form .form-col .two-blocks-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner {
+    width: 100%;
+    max-width: none;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn {
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn .select {
+    position: absolute;
+    background: url(../../img/Vector6.png) 0 0/cover no-repeat;
+    width: 12px;
+    height: 7px;
+    top: 50%;
+    right: 18px;
+    transition: transform 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .two-blocks-row .input-inner .select-btn :active {
+    transform: rotate(-180deg);
+  }
+  .section-6 .container .form .form-col .top-block {
+    padding: 0 25px 32px;
+  }
+  .section-6 .container .form .form-col .top-block .two-blocks-row .select-btn {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block {
+    padding: 40px 25px;
+  }
+  .section-6 .container .form .form-col .mid-block .files {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 592px;
+    padding: 24px;
+    border: 1px dashed #9299a2;
+    border-radius: 4px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299a2;
+    margin-bottom: 16px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .clip::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 3px;
+    background: url(../../img/clip.png);
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn {
+    position: relative;
+    overflow: hidden;
+    width: 134px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #1939de;
+    border-radius: 3px;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label .file-upload {
+    display: none;
+  }
+  .section-6 .container .form .form-col .mid-block .files .upload-btn label span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1939de;
+  }
+  .section-6 .container .form .form-col .btm-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 0;
+    border-bottom: none;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox {
+    margin-bottom: 32px;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox label::after {
+    content: "Я принимаю условия передачи информации";
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3d4b66;
+    padding-left: 16px;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label {
+    display: flex;
+    align-items: center;
+    max-width: 342px;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox + label::before {
+    content: "";
+    display: flex;
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    max-width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: background-size 0.5s 0s;
+  }
+  .section-6 .container .form .form-col .btm-block .checkbox .custom-checkbox:checked + label::before {
+    background: url(../../img/checkbox.png);
+  }
+  .section-6 .container .form .form-col .btm-block .subm-btn {
+    display: flex;
+    width: 100%;
+    max-width: 312px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #1939de;
+    border-radius: 3px;
+  }
+}
